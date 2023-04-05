@@ -1,6 +1,6 @@
 # markerx
 
-A new Flutter project.
+Loosely based off of fastmarker implementation from https://github.com/KanarekApp/flutter_map_fast_markers/tree/canary
 
 ## Getting Started
 
