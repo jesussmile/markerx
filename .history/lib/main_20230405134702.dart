@@ -152,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 ElevatedButton(
                   onPressed: toggleShowMarkers,
-                  child: const Text('Show Original FlutterMap markers '),
+                  child: const Text('Show Original markers '),
                 ),
                 ElevatedButton(
                   onPressed: toggleShowMarkerX,
@@ -160,8 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Text(
                   'Total no of markers ${wayPointsMarkersX.length}',
-                  style: const TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 )
               ],
             ),

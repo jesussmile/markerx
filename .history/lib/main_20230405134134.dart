@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
         _createMarkerList(jsonData, markerWidth, markerHeight);
     setState(() {
       wayPointsMarkersX = wayPointRouteX;
-
+      print(wayPointRouteX.length);
       wayPointsMarkers = wayPointsRoute;
     });
   }
@@ -152,17 +152,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 ElevatedButton(
                   onPressed: toggleShowMarkers,
-                  child: const Text('Show Original FlutterMap markers '),
+                  child: const Text('Show Original markers '),
                 ),
                 ElevatedButton(
                   onPressed: toggleShowMarkerX,
                   child: const Text('Click and Drag map to Show markers X'),
                 ),
-                Text(
-                  'Total no of markers ${wayPointsMarkersX.length}',
-                  style: const TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
-                )
               ],
             ),
           ),
