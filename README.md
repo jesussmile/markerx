@@ -25,16 +25,12 @@ There are two options to check in the drop down menu,
 
 1.short waypoint around 5000 markers
 
-
-https://user-images.githubusercontent.com/11044978/230053817-706ed034-f96b-4e7b-ba57-9b0c79dc8511.mp4
-
-
 2.Long waypoint around 30000 markers
 
 this is the repo, feel free to try https://github.com/jesussmile/markerx
 
-https://user-images.githubusercontent.com/11044978/230025056-f118d3ba-21cd-471b-8324-b65f6d9aa36b.mp4
 
+https://user-images.githubusercontent.com/11044978/230053817-706ed034-f96b-4e7b-ba57-9b0c79dc8511.mp4
 
 Note- I dont know anyting about PR or how to incorporate it, so.. if you make one tell me what to do next .. haha.
 
