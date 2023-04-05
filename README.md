@@ -3,7 +3,7 @@
 Hi Guys, 
 
 
-based off of [https://github.com/KanarekApp/flutter_map_fast_markers/tree/canary](url) I have written a new `MarkerX`  class that can load huge number of marker points and show them on the map. In my example i am using a QuadTree to better sort the markers and using the bounds of the visible screen to populate the markers. simple logic and the draw on canvas feature that the original author uses (for now) [ will try with prebuilt markers in future] 
+based off of https://github.com/KanarekApp/flutter_map_fast_markers I have written a new `MarkerX`  class that can load huge number of marker points and show them on the map. In my example i am using a QuadTree to better sort the markers and using the bounds of the visible screen to populate the markers. simple logic and the draw on canvas feature that the original author uses (for now) [ will try with prebuilt markers in future] 
 
 Initially I tried to use zoom and populate markers based off of it but It would only do so where my screen was visible when i scrolled up down right left.. nothing.[ there is a markerzoom class if you want to try it out]
 
